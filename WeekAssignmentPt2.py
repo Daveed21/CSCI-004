@@ -21,17 +21,17 @@ expAssignment = int(input('-->'))
 print("What is the 'x' input")
 xAssignment = int(input('-->'))
 
-#Now to create our variable in math notation. May be easier to break down each section since it is separated by a '+' symbol
 
-#Part 1
 #mTester = aAssignment ** bAssignment   (Leaving this here for reference that the first one is what gets powered)
-
 
 #Test power multiplier? yeah lets print here
 #Found out by luuck in math.exp that putting two ** symbols gets power.. which makes sense since its times itself neat
-print(mTester)
+#print(mTester)
+
+#Now to create our variable in math notation. May be easier to break down each section since it is separated by a '+' symbol
+
+#Part 1
+
 #Part 2
-
-
 
 #Part 3
