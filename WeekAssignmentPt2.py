@@ -41,7 +41,8 @@ partTwo = bAssignment * xAssignment
 partThree = cAssignment #lol
 
 #Final add in and print. Also adding a final look before doing the math 
-
-print("This is your equation: ", partOne, partTwo, partThree)
+print("This is your equation: ", aAssignment, "*", xAssignment, "^", expAssignment, "+", bAssignment, "*", xAssignment, "+", cAssignment)
 
 #Final check doing math on phone then inputting final result
+
+
