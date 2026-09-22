@@ -30,8 +30,8 @@ xAssignment = int(input('-->'))
 
 #Now to create our variable in math notation. May be easier to break down each section since it is separated by a '+' symbol
 
-#Part 1   ax^exp
-partOne = aAssignment * (xAssignment ** expAssignment)
+#Part 1   ax^exp             OOpsie I made the parenthesis in the wrong spot hehe pemdas
+partOne = (aAssignment * xAssignment) ** expAssignment
 
 #Part 2   bx
 
@@ -41,8 +41,8 @@ partTwo = bAssignment * xAssignment
 partThree = cAssignment #lol
 
 #Final add in and print. Also adding a final look before doing the math 
-print("This is your equation: ", aAssignment, "*", xAssignment, "^", expAssignment, "+", bAssignment, "*", xAssignment, "+", cAssignment)
+print("This is your equation: (", aAssignment, "*", xAssignment, ") ^", expAssignment, "+ (", bAssignment, "*", xAssignment, ") + ", cAssignment)
 
 #Final check doing math on phone then inputting final result
 
-
+print("This is the result: ", partOne + partTwo + partThree)
