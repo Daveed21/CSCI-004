@@ -111,3 +111,20 @@ print("This is your equation: (", aAssignment, "*", xAssignment, ") ^", expAssig
 #Final check doing math on phone then inputting final result
 
 print("This is the result: ", partOne + partTwo + partThree)
+
+
+
+#Part 5???
+import math
+
+x = int(input())
+
+if x == 5:
+    print(x, "is just right good job!")
+
+elif x >= 6:
+    print(x, "is too high")
+    
+else:
+    print(x, "is too low")
+
